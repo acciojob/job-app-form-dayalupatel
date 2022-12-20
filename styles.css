@@ -1,2 +1,36 @@
-
 /* Your CSS Code here. */
+*{
+    margin: 5px;
+    font-weight: 300;
+    font-family: cursive;
+
+}
+body{
+    background: black;
+    color:  white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+form {
+    margin: auto;
+    border: 3px solid rgb(203, 51, 51);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: rgb(134, 31, 31) 2px 2px 2px 2px; 
+}
+form h1 {
+    margin-bottom: 15px;
+}
+#submit {
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: tomato;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+#submit:hover {
+    background-color: rgb(164, 75, 60);
+}
